@@ -7,7 +7,7 @@
 
 	$ git status
 	$ git add "prueba.txt"
-	$ git commit -m "Enviando el archivo de prueba"
+	$ git commit -m " **SaS** "
 
 	$ git remote -v
 	$ git push origin master
