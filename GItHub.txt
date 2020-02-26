@@ -1,0 +1,20 @@
+	
+	$ cd C:\Users\OSCAR INF\Desktop\EL RINCON\JAVA\Programacion  ...
+
+	$ git clone https://github.com/saaronsas/EXTRA-java.git
+
+	$ cd EXTRA-java
+
+	$ git status
+	$ git add "prueba.txt"
+	$ git commit -m "Enviando el archivo de prueba"
+
+	$ git remote -v
+	$ git push origin master
+
+	**USO**
+
+	$ git add [NOMBRE DEL ARCHIVO]
+	$ git add . <--Añadir todo a la vez
+	
+	$ git remote add origin [URL DEL REPOSITORIO] <--Cambiar direccion de remote
