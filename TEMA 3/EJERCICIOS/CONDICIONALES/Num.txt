@@ -1,0 +1,44 @@
+impor java.util.Scanner;
+
+public class Num{
+  public static void main(String[] args){
+
+
+    Scanner in = new Scanner(System.in);
+    double num1 = 0, num2 = 0;
+
+    System.out.println("¿cual es tu numero A?");
+    num1 = in.nextDouble();
+    System.out.ptintln("");
+
+    System.out.println("¿cual es tu numero B?");
+    num2 = in.nextDouble();
+    System.out.ptintln("");
+
+    
+    if(num1 < 0) {
+      else if(num2 < 0){ 
+        System.out.println("A y B son negativos < 0");
+      }else if(num2 >0){
+        System.out.println("A es negativo y B es positivo");
+      }
+    }
+    
+    if(num1 > 0) {
+      else if(num2 < 0){ 
+        System.out.println("A es positivo y B es negativo");
+      }else if{
+        System.out.println("A y B son positivos");
+      }
+    }
+  
+
+
+
+
+
+
+
+  }
+
+}
